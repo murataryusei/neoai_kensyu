@@ -1,6 +1,6 @@
 import urllib
-from urllib import request  # urllib.requestモジュールをインポート 
-from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート  
+from urllib import request
+from bs4 import BeautifulSoup
 
 full_url = 'https://lionmaru.blog/対マリオの攻略ポイント-vipキャラ対策/'
 print(urllib.parse.quote(full_url, safe=':/'))

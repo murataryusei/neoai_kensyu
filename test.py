@@ -3,8 +3,8 @@ import gradio as gr
 from openai import OpenAI
 from dotenv import load_dotenv
 import urllib
-from urllib import request  # urllib.requestモジュールをインポート 
-from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
+from urllib import request
+from bs4 import BeautifulSoup
 
 load_dotenv()
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"),)
